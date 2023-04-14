@@ -41,5 +41,11 @@ body{
 @media screen and (max-width : 768px) {
     .table{
        width: 60%;
+       background-color: black;
+    }
+    #display{
+        padding: 7px;
+        width: 90%;
     }
 }
+
