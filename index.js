@@ -70,8 +70,8 @@ var meanHanifat = true
 var changeDisplay = document.getElementById("display")
 changeDisplay.style.backgroundColor = "gray"
 
-var changeDisplay2 = document.getElementById("num4").value
-alert (changeDisplay2)
+// var changeDisplay2 = document.getElementById("num4").value
+// alert (changeDisplay2)
 
  // function 1 => to display values on the screen 
 function handleClick(value){  
