@@ -12,81 +12,81 @@
     <input type="text"  id="display">
     </td>
     <td >
-        <input type="button" value="C"  id="d1">
+        <input type="button" value="C"  id="d1" onclick="clearScreen()">
     </td>
 </tr>
 
 <tr class="row1">
 
 <td >
-    <input type="button" value="1" class="button">
+    <input type="button" value="1" class="button"  onclick="handleClick('1')">
 </td>
 <td >
-    <input type="button" value="2" class="button">
-</td>
-
-<td >
-    <input type="button" value="3" class="button">
+    <input type="button" value="2" class="button"  onclick="handleClick('2')">
 </td>
 
 <td >
-    <input type="button" value="/" class="bu">
+    <input type="button" value="3" class="button"  onclick="handleClick('3')">
+</td>
+
+<td >
+    <input type="button" value="/" class="bu"  onclick="handleClick('/')">
 </td>
 </tr>
 
 
 <tr class="row2">
     <td >
-        <input type="button" value="4"  class="button">
+        <input type="button" value="4"  class="button" id="num4" onclick="handleClick('4')">
     </td>
 
     <td >
-        <input type="button" value="5" class="button">
+        <input type="button" value="5" class="button" onclick="handleClick( '5' )" id="num5">
     </td>
 
     <td>
-        <input type="button" value="6" class="button">
+        <input type="button" value="6" class="button"  onclick="handleClick('6')">
     </td>
 
     <td >
-        <input type="button" value="-" class="bu">
+        <input type="button" value="-" class="bu"  onclick="handleClick('-')">
     </td>
 </tr>
 
 <tr class="row3">
     <td >
-        <input type="button" value="7" class="button">
+        <input type="button" value="7" class="button"  onclick="handleClick('7')">
     </td>
 
     <td>
-        <input type="button" value="8"  class="button">
+        <input type="button" value="8"  class="button"  onclick="handleClick('8')">
     </td>
 
     <td >
-        <input type="button" value="9"  class="button">
-    </td>
+        <input type="button" value="9"  class="button"  onclick="handleClick('9')">
+     </td>
 
     <td >
-        <input type="button" value="*" class="bu">
+        <input type="button" value="*" class="bu"  onclick="handleClick('*')">
     </td>
-</tr>
+</tr>                                                                                                                                                        
 
 
 <tr class="row4">
     <td >
-        <input type="button" value="." class="button">
+        <input type="button" value="." class="button"  onclick="handleClick('.')">
     </td>
 
     <td >
-        <input type="button" value="0" class="button">
+        <input type="button" value="0" class="button"  onclick="handleClick('0')">
     </td>
 
     <td >
-        <input type="button" value="=" class="button">
+        <input type="button" value="=" class="button" onclick="calculate()">
     </td>
 
     <td >
-        <input type="button" value="+" class="bu">
+        <input type="button" value="+" class="bu"  onclick="handleClick('+')">
     </td>
 </tr>
 
@@ -111,5 +111,6 @@
 
 
 
+<script type="text/javascript" src="./index.js"></script>
 </body>
 </html>
