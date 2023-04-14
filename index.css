@@ -37,3 +37,9 @@ body{
     border-radius :5px; 
     background-color: darkseagreen;
 }
+
+@media screen and (max-width : 768px) {
+    .table{
+       width: 60%;
+    }
+}
